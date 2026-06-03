@@ -351,6 +351,14 @@ function standingsTableHtml(ts,rounds,prefix) {
 }
 
 function getLider(ts,rounds,prefix) {
+  // Solo muestra líder si al menos un partido fue jugado
+  const hayResultados = rounds.some((round,r) =>
+    round.some((m,i) => {
+      const sc = scores[`${prefix}${r}_${i}`];
+      return sc && sc.a !== '' && sc.b !== '';
+    })
+  );
+  if (!hayResultados) return 'Por definir';
   return calcStandings(ts,rounds,prefix)[0].name;
 }
 
