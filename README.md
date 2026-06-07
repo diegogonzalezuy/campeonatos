@@ -2,7 +2,7 @@
 
 Aplicación web para organizar campeonatos deportivos en centros educativos. Permite crear equipos, generar fixtures, registrar resultados y gestionar fases en tiempo real, desde cualquier celular y sin necesidad de instalación.
 
-🔗 **[Acceder a la app](https://diegogonzalezuy.github.io/campeonatos)**
+🔗 **[Acceder a la app](https://juegolimpio.github.io/campeonatos/)**
 
 ---
 
@@ -26,10 +26,6 @@ Aplicación web para organizar campeonatos deportivos en centros educativos. Per
 ## Estado del proyecto
 
 En uso activo y mejora continua a partir del feedback de docentes.
-
-## Contacto
-
-Consultas, errores o sugerencias: **torneofacilapp@gmail.com**
 
 ---
 
